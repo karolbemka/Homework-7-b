@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+
+<form method="get" action="result">
+    <div class="form-group">
+        <h2>Podaj n-ty elemenet ciągu Fibonacciego, który chciałbyś poznać</h2>
+        <input name="fibonacci" type="text" class="form-control" id="Select3" required
+               pattern="^[0-9][0-9]*$" placeholder="Który element ciągu chcesz znać?" title="Liczba musi być całkowita i nieujemna">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Oblicz</button>
+</form>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    </div>
+</div>
+</body>
+</html>
